@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+*.pyc
+__pycache__/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+
+# Local storage and temporary files
+storage/
+*.log
+tmp/
+.temp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Project specific
+backend/storage/
+frontend/.vite/
